@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Card from './components/CharacterCard/Card';
 import Score from './components/Score';
 import characters from './characters.json';
-import Modal from 'react-modal';
 import './App.css';
 import { HashRouter } from 'react-router-dom';
 
@@ -53,10 +52,10 @@ class App extends Component {
       newState.hasPicked = []
       alert(`You already chose that character. Game Over!`)
       this.setState({ message: newState.message})
-      this.setState({ pickedCharacters: []})
+      this.setState({ hasPicked: []})
     } else {
       newState.hasPicked.push(name);
-      this.setState({ pickedCharacters: newState.hasPicked })
+      this.setState({ hasPicked: newState.hasPicked })
     }
     cb(newState, this.checkWin)
   }
