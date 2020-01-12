@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Patrick",
+        "image": "images/patrick.png"
+    },
+    {
+        "id": 2,
+        "name": "Mermaid Man",
+        "image": "images/mermaid.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Barnacle Boy",
+        "image": "images/barnacle.png"
+    },
+    {
+        "id": 4,
+        "name": "Spongebob",
+        "image": "images/spongebob.png"
+    },
+    {
+        "id": 5,
+        "name": "Krabs",
+        "image": "images/krabs.png"
+    },
+    {
+        "id": 6,
+        "name": "Plankton",
+        "image": "images/plankton.png"
+    },
+    {
+        "id": 7,
+        "name": "Squidward",
+        "image": "images/squidward.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Sandy",
+        "image": "images/sandy.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Pearl",
+        "image": "images/pearl.jpg"
+    }
+]

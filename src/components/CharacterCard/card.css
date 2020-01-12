@@ -1,0 +1,13 @@
+.card {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+img {
+    height: 200px;
+    object-fit: fill;
+}

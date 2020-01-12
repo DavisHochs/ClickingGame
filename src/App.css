@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+img {
+  object-fit: cover;
+}
+
+.score-info {
+  margin: 50px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  /* grid-template-rows: 25% 25% 25% 25%; */
+}
